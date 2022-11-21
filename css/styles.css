@@ -103,8 +103,7 @@ address {
 }
 
 .section-value-deskription {
-  line-height: 24px;
-  letter-spacing: 1.71;
+  line-height: 1, 71;
   color: var(--color-boulder);
 }
 
@@ -113,6 +112,17 @@ address {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+}
+
+.nev-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.photo {
+  background: var(--color-whisper);
 }
 
 .photo-title {
@@ -138,6 +148,7 @@ address {
 }
 
 .footer-address-link {
+  font-weight: 400;
   line-height: 1.17;
   color: var(--color-white-transperent);
 }
@@ -148,7 +159,7 @@ address {
 
 /*---PORTFOLIO---*/
 
-.button-section-action {
+.project-button-action {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -158,7 +169,7 @@ address {
   border: none;
 }
 
-.button-section-action:hover {
+.project-button-action:hover {
   color: var(--color-white);
   background: var(--color-dodger-blue);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
